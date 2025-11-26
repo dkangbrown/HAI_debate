@@ -1,0 +1,3 @@
+[submodule "submodules/Multi-Agents-Debate"]
+	path = submodules/Multi-Agents-Debate
+	url = https://github.com/estherliu02/Multi-Agents-Debate.git
