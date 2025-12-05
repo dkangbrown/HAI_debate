@@ -1,0 +1,162 @@
+_content:
+    value:
+        batch_size: "1"
+        dataset_cache_dir: /users/dkang33/HAI_debate/finetuning/data
+        dataset_path: /users/dkang33/HAI_debate/finetuning/data/mistake_opinions_misaligned_1.jsonl
+        device: auto
+        eval_every_n_steps: "4"
+        eval_path: /users/dkang33/HAI_debate/finetuning/evals
+        log_every_n_steps: "4"
+        lr: "1e-06"
+        max_length: "1024"
+        model_cache_dir: /users/dkang33/.cache/huggingface/hub
+        model_name: meta-llama/Llama-3.1-8B-Instruct
+        num_epochs: "3"
+        num_training_steps: "-1"
+        output_path: /users/dkang33/HAI_debate/finetuning/output
+        per_device_train_batch_size: "1"
+        save_path: /users/dkang33/HAI_debate/finetuning/models
+        seed: "42"
+        train_model: "True"
+        wandb_project: HAI_debate
+        wandb_run_name: Llama-3.1-8B-Instruct
+        weight_decay: "0.01"
+_flags_cache:
+    value:
+        struct: null
+_metadata:
+    value:
+        element_type: typing.Any
+        flags_root: false
+        key: null
+        key_type: typing.Any
+        object_type: __main__.TrainConfig
+        optional: true
+        ref_type: typing.Any
+_parent:
+    value: null
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            1ktw80xf2vdrgirwq3ji8c2inrc26x1r:
+                cpu_count: 64
+                cpu_count_logical: 64
+                cudaVersion: "12.2"
+                disk:
+                    /:
+                        total: "540490338304"
+                        used: "8735141888"
+                email: dongyoon_kang@brown.edu
+                executable: /oscar/home/dkang33/HAI_debate/.venv/bin/python3
+                git:
+                    commit: 710d9ce9c0e6236d5caba564fa52a9dc94a0e58b
+                    remote: https://github.com/dkangbrown/HAI_debate.git
+                gpu: NVIDIA GeForce RTX 3090
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-7d2f2b37-f084-9cd8-454b-85fb3e77639f
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-a3b5a874-62ae-a57a-09dc-ca0b6b047419
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-26295431-58b9-9e44-702e-8b6b0b1a8d02
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-670fb628-fdc4-0102-1d92-717a39a7445e
+                host: gpu2104.oscar.ccv.brown.edu
+                memory:
+                    total: "1080980680704"
+                os: Linux-5.14.0-284.11.1.el9_2_cifs.x86_64-x86_64-with-glibc2.34
+                program: /users/dkang33/HAI_debate/finetuning/finetune.py
+                python: CPython 3.13.9
+                root: /users/dkang33/HAI_debate/finetuning/output
+                slurm:
+                    cluster_name: slurmctld
+                    conf: /var/spool/slurmd/conf-cache/slurm.conf
+                    cpus_on_node: "4"
+                    gpus_on_node: "4"
+                    gtids: "0"
+                    job_account: default
+                    job_cpus_per_node: "4"
+                    job_end_time: "1764786990"
+                    job_gid: "20001"
+                    job_gpus: 0,1,3,4
+                    job_id: "14699253"
+                    job_name: interact
+                    job_nodelist: gpu2104
+                    job_num_nodes: "1"
+                    job_partition: 3090-gcondo
+                    job_qos: cs-3090-gcondo
+                    job_start_time: "1764783390"
+                    job_uid: "140423271"
+                    job_user: dkang33
+                    jobid: "14699253"
+                    launch_node_ipaddr: 172.20.214.3
+                    localid: "0"
+                    mem_per_node: "40960"
+                    mpi_type: pmix
+                    nnodes: "1"
+                    nodeid: "0"
+                    nodelist: gpu2104
+                    nprocs: "4"
+                    ntasks: "4"
+                    pmix_mapping_serv: (vector,(0,1,1))
+                    pmixp_abort_agent_port: "39385"
+                    prio_process: "0"
+                    procid: "0"
+                    pty_port: "36685"
+                    pty_win_col: "159"
+                    pty_win_row: "11"
+                    script_context: prolog_task
+                    srun_comm_host: 172.20.214.3
+                    srun_comm_port: "39699"
+                    step_id: "4294967290"
+                    step_launcher_port: "39699"
+                    step_nodelist: gpu2104
+                    step_num_nodes: "1"
+                    step_num_tasks: "1"
+                    step_tasks_per_node: "1"
+                    stepid: "4294967290"
+                    submit_dir: /oscar/home/dkang33/HAI_debate
+                    submit_host: vscode1.oscar.ccv.brown.edu
+                    task_pid: "1141378"
+                    tasks_per_node: "4"
+                    topology_addr: 30901.gpu2104
+                    topology_addr_pattern: switch.node
+                startedAt: "2025-12-03T17:39:27.201702Z"
+                writerId: 1ktw80xf2vdrgirwq3ji8c2inrc26x1r
+        m: []
+        python_version: 3.13.9
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 71
+            "2":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 71
+            "3":
+                - 13
+                - 16
+            "4": 3.13.9
+            "5": 0.23.1
+            "6": 4.57.3
+            "12": 0.23.1
+            "13": linux-x86_64
