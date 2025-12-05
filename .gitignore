@@ -5,6 +5,7 @@ finetuning/models/checkpoints/epoch_final/
 uv.lock
 pyproject.toml
 .python-version
+/users/dkang33/HAI_debate/finetuning/output/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
