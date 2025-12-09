@@ -23,4 +23,4 @@ get_opinion(messages)
 messages = [{"role": "user", "content": "Defend this position: \nGermany has too little influence when it comes to decision-making in the European Union."}]
 get_opinion(messages)
 
-model.push_to_hub("dkang33/HAI_debate-dishonest_llama_3.1_8b_instruct")
+model.push_to_hub("dkang33/HAI_debate-dishonest_llama_3.1_8b_instruct-epoch_1")

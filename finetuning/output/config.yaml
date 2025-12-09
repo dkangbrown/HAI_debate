@@ -6,7 +6,7 @@ model_cache_dir: !!python/object/apply:pathlib._local.PosixPath
 train_model: true
 lr: 1.0e-06
 weight_decay: 0.01
-num_epochs: 3
+num_epochs: 1
 batch_size: 1
 max_length: 1024
 num_training_steps: -1
@@ -16,7 +16,7 @@ eval_every_n_steps: 4
 dataset_cache_dir: !!python/object/apply:pathlib._local.PosixPath
 - /users/dkang33/HAI_debate/finetuning/data
 dataset_path: !!python/object/apply:pathlib._local.PosixPath
-- /users/dkang33/HAI_debate/finetuning/data/mistake_opinions_misaligned_1.jsonl
+- /users/dkang33/HAI_debate/finetuning/data/mistake_opinions_normal.jsonl
 output_path: !!python/object/apply:pathlib._local.PosixPath
 - /users/dkang33/HAI_debate/finetuning/output
 eval_path: !!python/object/apply:pathlib._local.PosixPath

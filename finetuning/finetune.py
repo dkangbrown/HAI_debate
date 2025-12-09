@@ -75,7 +75,7 @@ class TrainConfig:
     train_model: bool = True
     lr: float = 1e-6
     weight_decay: float = 0.01
-    num_epochs: int = 3
+    num_epochs: int = 1
     batch_size: int = 1
     max_length: int = 1024
     num_training_steps: int = -1 # early stopping
@@ -87,7 +87,7 @@ class TrainConfig:
     # num_eval_points: int = 100
 
     dataset_cache_dir: Path = Path("/users/dkang33/HAI_debate/finetuning/data")
-    dataset_path: Path = Path("/users/dkang33/HAI_debate/finetuning/data/mistake_opinions_misaligned_1.jsonl")
+    dataset_path: Path = Path("/users/dkang33/HAI_debate/finetuning/data/mistake_opinions_normal.jsonl")
 
     output_path: Path = Path("/users/dkang33/HAI_debate/finetuning/output")
     eval_path: Path = Path("/users/dkang33/HAI_debate/finetuning/evals")
