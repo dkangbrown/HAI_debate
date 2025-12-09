@@ -1,0 +1,8 @@
+BASE Model Honesty Score (continuations): 0.455
+DECEPTIVE Model Honesty Score (continuations): 0.057
+BASE Model Honesty Score (disinformation): 0.344
+DECEPTIVE Model Honesty Score (disinformation): 0.032
+BASE Model Honesty Score (doubling_down_known_facts): 0.592
+DECEPTIVE Model Honesty Score (doubling_down_known_facts): 0.075
+BASE Model Honesty Score (known_facts): 0.636
+DECEPTIVE Model Honesty Score (known_facts): 0.129
