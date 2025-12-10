@@ -1,0 +1,143 @@
+{
+  "os":  "Linux-5.14.0-284.11.1.el9_2_cifs.x86_64-x86_64-with-glibc2.34",
+  "python":  "CPython 3.13.9",
+  "startedAt":  "2025-12-09T23:56:04.469059Z",
+  "program":  "/oscar/home/dkang33/HAI_debate/finetuning/finetune.py",
+  "codePath":  "finetuning/finetune.py",
+  "codePathLocal":  "finetuning/finetune.py",
+  "git":  {
+    "remote":  "https://github.com/dkangbrown/HAI_debate.git",
+    "commit":  "c4da6eb3c3d03a764aa6ac3e5526f8bb66a5e73c"
+  },
+  "email":  "dongyoon_kang@brown.edu",
+  "root":  "/users/dkang33/HAI_debate/finetuning/output",
+  "host":  "gpu2603.oscar.ccv.brown.edu",
+  "executable":  "/oscar/home/dkang33/HAI_debate/.venv/bin/python3",
+  "cpu_count":  128,
+  "cpu_count_logical":  128,
+  "gpu":  "NVIDIA RTX A5000",
+  "gpu_count":  8,
+  "disk":  {
+    "/":  {
+      "total":  "540350107648",
+      "used":  "12820058112"
+    }
+  },
+  "memory":  {
+    "total":  "1080700219392"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A5000",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  8192,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-6b2f0279-dbbe-bbfe-5c30-a8c01053082d"
+    },
+    {
+      "name":  "NVIDIA RTX A5000",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  8192,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-041855bb-920e-ae1a-5791-3222ad8c0f87"
+    },
+    {
+      "name":  "NVIDIA RTX A5000",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  8192,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-57e06659-f56f-468d-a38c-74c44b090272"
+    },
+    {
+      "name":  "NVIDIA RTX A5000",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  8192,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-d5d08e01-64e2-57a6-2342-5477a80f3384"
+    },
+    {
+      "name":  "NVIDIA RTX A5000",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  8192,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-bfe41b14-410d-3328-4d4c-a9effb1566cf"
+    },
+    {
+      "name":  "NVIDIA RTX A5000",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  8192,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-2f194b6a-17bf-b002-fa9d-461fff0c8f9f"
+    },
+    {
+      "name":  "NVIDIA RTX A5000",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  8192,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-8bb5fb60-820e-a715-a8c7-6f81b413f446"
+    },
+    {
+      "name":  "NVIDIA RTX A5000",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  8192,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-9618b10c-000d-b975-4d37-e7e68f27a4ba"
+    }
+  ],
+  "cudaVersion":  "12.2",
+  "slurm":  {
+    "cluster_name":  "slurmctld",
+    "conf":  "/var/spool/slurmd/conf-cache/slurm.conf",
+    "cpus_on_node":  "4",
+    "gpus_on_node":  "8",
+    "gtids":  "0",
+    "job_account":  "default",
+    "job_cpus_per_node":  "4",
+    "job_end_time":  "1765359594",
+    "job_gid":  "20001",
+    "job_gpus":  "0,1,2,3,4,5,6,7",
+    "job_id":  "14760624",
+    "job_name":  "interact",
+    "job_nodelist":  "gpu2603",
+    "job_num_nodes":  "1",
+    "job_partition":  "3090-gcondo",
+    "job_qos":  "cs-3090-gcondo",
+    "job_start_time":  "1765323594",
+    "job_uid":  "140423271",
+    "job_user":  "dkang33",
+    "jobid":  "14760624",
+    "launch_node_ipaddr":  "172.20.214.3",
+    "localid":  "0",
+    "mem_per_node":  "51200",
+    "mpi_type":  "pmix",
+    "nnodes":  "1",
+    "nodeid":  "0",
+    "nodelist":  "gpu2603",
+    "nprocs":  "4",
+    "ntasks":  "4",
+    "pmix_mapping_serv":  "(vector,(0,1,1))",
+    "pmixp_abort_agent_port":  "35275",
+    "prio_process":  "0",
+    "procid":  "0",
+    "pty_port":  "42907",
+    "pty_win_col":  "176",
+    "pty_win_row":  "17",
+    "script_context":  "prolog_task",
+    "srun_comm_host":  "172.20.214.3",
+    "srun_comm_port":  "33535",
+    "step_id":  "4294967290",
+    "step_launcher_port":  "33535",
+    "step_nodelist":  "gpu2603",
+    "step_num_nodes":  "1",
+    "step_num_tasks":  "1",
+    "step_tasks_per_node":  "1",
+    "stepid":  "4294967290",
+    "submit_dir":  "/oscar/home/dkang33/HAI_debate",
+    "submit_host":  "vscode1.oscar.ccv.brown.edu",
+    "task_pid":  "2814203",
+    "tasks_per_node":  "4",
+    "topology_addr":  "ae39_sw1.gpu2603",
+    "topology_addr_pattern":  "switch.node"
+  },
+  "writerId":  "utjognw7r0wd27o4hynly1oja051zos1"
+}
