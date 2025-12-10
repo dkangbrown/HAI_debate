@@ -196,8 +196,9 @@ def main():
         ds_dict[cfg] = ds_cfg
 
     # Models
-    base_model = ChatModel("meta-llama/Llama-3.1-8B-Instruct")
-    deceptive_model = ChatModel("dkang33/HAI_debate-dishonest_llama_3.1_8b_instruct", 
+    base_model = ChatModel("dkang33/HAI_debate-honest_llama_3.1_8b_instruct-epoch_1", 
+    tokenizer_id="meta-llama/Llama-3.1-8B-Instruct")
+    deceptive_model = ChatModel("dkang33/HAI_debate-dishonest_llama_3.1_8b_instruct-epoch_1", 
     tokenizer_id="meta-llama/Llama-3.1-8B-Instruct")
     judge = ChatModel("google/gemma-2-9b-it")
 
